@@ -1,4 +1,8 @@
 // Code your solution in this file!
 function distanceFromHqInBlocks(blocks){
- `${(blocks- 42)*264}` 
+ if (blocks > 42) {
+   return blocks - 42;
+ }
+ else{ 42 - blocks;
+ }
  }
